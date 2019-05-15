@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:gravity="center">
+
+    <TextView
+        android:padding="14dp"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="#B60505"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Bank App"
+        android:layout_marginBottom="20dp"
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:src="@drawable/blood"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:onClick="itemClick"
+        android:id="@+id/donor"
+        android:background="@drawable/item_back"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:padding="14dp"
+        android:textSize="35sp"
+        android:textColor="#B60505"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Be a Donor?"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:onClick="itemClick"
+        android:id="@+id/blood"
+        android:background="@drawable/item_back"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:padding="14dp"
+        android:textSize="35sp"
+        android:textColor="#B60505"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Need Blood?"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:onClick="itemClick"
+        android:id="@+id/health"
+        android:background="@drawable/item_back"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:padding="14dp"
+        android:textSize="35sp"
+        android:textColor="#B60505"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health Tips"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="end"
+        android:textSize="25sp"
+        android:textColor="#B60505"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More info"/>
+
+
+</LinearLayout>
